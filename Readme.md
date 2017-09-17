@@ -10,5 +10,6 @@ This software runs lightly even with large log file.
 This software is created in C#. You can build with Visual Studio. 
 
 ## License
+This Software under the MIT licence. Please see the licence file for more information.
 Please also note that ReadEnc library and FugueIcons are covered by a separate licence. 
 Please see the each direcotry for more information.
