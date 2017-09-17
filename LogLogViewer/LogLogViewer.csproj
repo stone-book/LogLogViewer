@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{79AE4164-452A-42A8-88D7-19CAFB434BDE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogLogViewer</RootNamespace>
+    <AssemblyName>LogLogViewer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\AlertMailTask.cs" />
+    <Compile Include="Classes\TextBoxItems.cs" />
+    <Compile Include="Classes\DataTables\MailPatternDataTable.cs" />
+    <Compile Include="Classes\DataTables\FilterPatternDataTable.cs" />
+    <Compile Include="Classes\DataTables\ColorPatternDataTable.cs" />
+    <Compile Include="Classes\SmtpMailProvider.cs" />
+    <Compile Include="Classes\Patterns\MailPattern.cs" />
+    <Compile Include="Classes\Patterns\Pattern.cs" />
+    <Compile Include="Classes\Patterns\FilterPattern.cs" />
+    <Compile Include="Forms\AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Patterns\ColorPattern.cs" />
+    <Compile Include="Classes\Const.cs" />
+    <Compile Include="Classes\DataTables\GridDataTable.cs" />
+    <Compile Include="Forms\FindDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FindDialog.Designer.cs">
+      <DependentUpon>FindDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\HistoryControl.cs" />
+    <Compile Include="Forms\MailAccountDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MailAccountDialog.Designer.cs">
+      <DependentUpon>MailAccountDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MailMessageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MailMessageDialog.Designer.cs">
+      <DependentUpon>MailMessageDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ReadTextBinary.cs" />
+    <Compile Include="Classes\Setting.cs" />
+    <Compile Include="Forms\SettingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SettingDialog.Designer.cs">
+      <DependentUpon>SettingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="Forms\AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FindDialog.ja.resx">
+      <DependentUpon>FindDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FindDialog.resx">
+      <DependentUpon>FindDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MailAccountDialog.ja.resx">
+      <DependentUpon>MailAccountDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MailAccountDialog.resx">
+      <DependentUpon>MailAccountDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MailMessageDialog.ja.resx">
+      <DependentUpon>MailMessageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MailMessageDialog.resx">
+      <DependentUpon>MailMessageDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.ja.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ja.resx" />
+    <EmbeddedResource Include="Forms\SettingDialog.ja.resx">
+      <DependentUpon>SettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SettingDialog.resx">
+      <DependentUpon>SettingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Readme.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LICENCE.txt" />
+    <Content Include="Manual.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\icon16.png" />
+    <Content Include="Resources\icon32.png" />
+    <Content Include="Resources\FugueIcons\arrow-090.png" />
+    <Content Include="Resources\FugueIcons\arrow-270.png" />
+    <Content Include="Resources\FugueIcons\clipboard-paste.png" />
+    <Content Include="Resources\FugueIcons\clock.png" />
+    <Content Include="Resources\FugueIcons\color-swatch.png" />
+    <Content Include="Resources\FugueIcons\control-pause.png" />
+    <Content Include="Resources\FugueIcons\control.png" />
+    <Content Include="Resources\FugueIcons\cross.png" />
+    <Content Include="Resources\FugueIcons\disk-return-black.png" />
+    <Content Include="Resources\FugueIcons\document-copy.png" />
+    <Content Include="Resources\FugueIcons\edit-family.png" />
+    <Content Include="Resources\FugueIcons\folder-open-document-text.png" />
+    <Content Include="Resources\FugueIcons\funnel.png" />
+    <Content Include="Resources\FugueIcons\gear.png" />
+    <Content Include="Resources\FugueIcons\magnifier.png" />
+    <Content Include="Resources\FugueIcons\mail.png" />
+    <Content Include="Resources\FugueIcons\navigation-180.png" />
+    <Content Include="Resources\FugueIcons\navigation.png" />
+    <Content Include="Resources\FugueIcons\plus-circle.png" />
+    <Content Include="Resources\FugueIcons\README.txt" />
+    <Content Include="Resources\FugueIcons\scissors-blue.png" />
+    <Content Include="Resources\multi.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReadJEnc\ReadJEnc.csproj">
+      <Project>{a2b7353c-95ac-4504-864e-49a1967dcf35}</Project>
+      <Name>ReadJEnc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

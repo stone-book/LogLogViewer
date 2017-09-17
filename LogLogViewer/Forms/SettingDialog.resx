@@ -1,0 +1,1969 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fontColorPic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonShiftJIS.Name" xml:space="preserve">
+    <value>radioButtonShiftJIS</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="fontColorPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 46</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Name" xml:space="preserve">
+    <value>buttonCancel</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonPtnDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="radioButtonUTF8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="&gt;&gt;buttonInport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="maxReadSize.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDown.Name" xml:space="preserve">
+    <value>buttonPtnDown</value>
+  </data>
+  <data name="&gt;&gt;radioButtonJIS.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="dataGridViewMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="postScriptModeCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 70</value>
+  </data>
+  <data name="buttonMailDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="groupBoxPtn.Text" xml:space="preserve">
+    <value>Regular Expressions</value>
+  </data>
+  <data name="checkBoxFilterEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonPtnDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="buttonPtnDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAccount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDown.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1004</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16BE.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="buttonPtnAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="buttonPtnAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFilterAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="radioButtonUTF8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 16</value>
+  </data>
+  <data name="buttonDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsSaveHistory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAdd.Parent" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="checkBoxFilterEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="buttonPtnAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 350</value>
+  </data>
+  <data name="&gt;&gt;buttonMailUp.Name" xml:space="preserve">
+    <value>buttonMailUp</value>
+  </data>
+  <data name="tabPage5.ImageIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterAdd.Name" xml:space="preserve">
+    <value>buttonFilterAdd</value>
+  </data>
+  <data name="groupBoxPtn.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="checkBoxPtnEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonFilterUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButtonJIS.Name" xml:space="preserve">
+    <value>radioButtonJIS</value>
+  </data>
+  <data name="groupBoxMail.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="groupBoxMail.Text" xml:space="preserve">
+    <value>Regular Expressions</value>
+  </data>
+  <data name="buttonPtnDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxMailEnable.Text" xml:space="preserve">
+    <value>Enable Alert Mail</value>
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonFilterUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonJIS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 16</value>
+  </data>
+  <data name="buttonFilterDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="radioButtonEucJP.Text" xml:space="preserve">
+    <value>EUC-JP</value>
+  </data>
+  <data name="buttonFilterDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="groupBoxPtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonMailAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;radioButtonJIS.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Name" xml:space="preserve">
+    <value>buttonOK</value>
+  </data>
+  <data name="buttonInport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 50</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 79</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPtnEnable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 44</value>
+  </data>
+  <data name="dataGridViewMail.TabIndex" type="System.Int32, mscorlib">
+    <value>305</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 350</value>
+  </data>
+  <data name="buttonMailDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>304</value>
+  </data>
+  <data name="buttonMailDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonFilterDown.TabIndex" type="System.Int32, mscorlib">
+    <value>202</value>
+  </data>
+  <data name="postScriptModeCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="maxLineLength.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;fontColorPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterUp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonDefault.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;postScriptModeCheck.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonPtnDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 88</value>
+  </data>
+  <data name="buttonPtnAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 350</value>
+  </data>
+  <data name="buttonPtnUp.TabIndex" type="System.Int32, mscorlib">
+    <value>101</value>
+  </data>
+  <data name="buttonMailAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxIsSaveHistory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 16</value>
+  </data>
+  <data name="&gt;&gt;buttonMailUp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewFilter.Name" xml:space="preserve">
+    <value>dataGridViewFilter</value>
+  </data>
+  <data name="buttonMailAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>306</value>
+  </data>
+  <data name="dataGridViewFilter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBoxMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="buttonCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonExport.ToolTip" xml:space="preserve">
+    <value>Export Setting</value>
+  </data>
+  <data name="radioButtonUTF16LE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 44</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonPtnAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="radioButtonUTF8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 22</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="buttonFilterAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="buttonOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="postScriptModeCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;backColorPic.Name" xml:space="preserve">
+    <value>backColorPic</value>
+  </data>
+  <data name="buttonPtnDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPtn.Name" xml:space="preserve">
+    <value>groupBoxPtn</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonFilterDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonShiftJIS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 22</value>
+  </data>
+  <data name="buttonMailDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="checkBoxFilterEnable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBoxFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonPtnUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFilterUp.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="label6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="backColorPic.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;postScriptModeCheck.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 12</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonJIS.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonPtnUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonExport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 27</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;backColorPic.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonExport.TabIndex" type="System.Int32, mscorlib">
+    <value>1000</value>
+  </data>
+  <data name="radioButtonShiftJIS.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDelete.Parent" xml:space="preserve">
+    <value>groupBoxFilter</value>
+  </data>
+  <data name="buttonMailAccount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxIsUrlLink.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="buttonPtnDown.TabIndex" type="System.Int32, mscorlib">
+    <value>102</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="radioButtonUTF16BE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>216, 66</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMailEnable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDelete.Name" xml:space="preserve">
+    <value>buttonPtnDelete</value>
+  </data>
+  <data name="checkBoxMailEnable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="checkBoxShowStatusBar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFilterDown.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonFont.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonEucJP.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="buttonMailDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMailEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>341, 377</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 50</value>
+  </data>
+  <data name="buttonMailUp.TabIndex" type="System.Int32, mscorlib">
+    <value>301</value>
+  </data>
+  <data name="checkBoxFilterEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;radioButtonEucJP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonUTF16LE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="buttonPtnDelete.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 12</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonFilterDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>204</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsSaveHistory.Name" xml:space="preserve">
+    <value>checkBoxIsSaveHistory</value>
+  </data>
+  <data name="radioButtonShiftJIS.Text" xml:space="preserve">
+    <value>Shift-JIS</value>
+  </data>
+  <data name="&gt;&gt;maxLineLength.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="buttonMailAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 280</value>
+  </data>
+  <data name="buttonMailAccount.Text" xml:space="preserve">
+    <value>Mail Account</value>
+  </data>
+  <data name="dataGridViewPtn.TabIndex" type="System.Int32, mscorlib">
+    <value>105</value>
+  </data>
+  <data name="groupBoxFilter.Text" xml:space="preserve">
+    <value>Regular Expressions</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxPtnEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maxReadSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonUTF16BE.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;checkBoxShowStatusBar.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPtnEnable.Name" xml:space="preserve">
+    <value>checkBoxPtnEnable</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowStatusBar.Name" xml:space="preserve">
+    <value>checkBoxShowStatusBar</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewFilter.Parent" xml:space="preserve">
+    <value>groupBoxFilter</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnUp.Parent" xml:space="preserve">
+    <value>groupBoxPtn</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;radioButtonEucJP.Name" xml:space="preserve">
+    <value>radioButtonEucJP</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 324</value>
+  </data>
+  <data name="&gt;&gt;backColorPic.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonJIS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonFilterUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 18</value>
+  </data>
+  <data name="&gt;&gt;fontColorPic.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="textBoxFontInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPtnUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="radioButtonShiftJIS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colorDialog2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAccount.Name" xml:space="preserve">
+    <value>buttonMailAccount</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Total Lines On Screen</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="groupBoxPtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 310</value>
+  </data>
+  <data name="dataGridViewMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 227</value>
+  </data>
+  <data name="buttonFilterDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="buttonPtnUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 18</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDown.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="maxLineLength.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 15</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="textBoxFontInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 19</value>
+  </data>
+  <data name="checkBoxPtnEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAAe
+        CwAAAk1TRnQBSQFMAgEBBAEAARABAAEUAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8ACwAB8QGS
+        Ae0B8RgAAf8B9ALzAu8B8QLzAfQB/xYAAfQC/wHtAQcB7wHrAv8B9BUABP8BBwG8AQcE/xUAAQcB6wHs
+        Af8B7QG8AQcB7AH/AesBEgHvGAADBxgAAfEBBwHxAfcC7AIHAW0B7AH3AfAB7AG8AwADzwEAA7YBAAPS
+        CQADBwcAAbUErQWzBbQBtQEAAfIB9wHwAQcBvAHwAbwBBwG8AgcBvAHrAbwDAAPPAQADtgEAA9IJAAIH
+        Ae8HAAHPAfQB8wr/AfQB8QG0AgAB8QQHAe8B9wIHAu8BvAQAA88BAAO2AQAD0gkAAgcB7wcAAa0B/wEJ
+        ChkBCQHzAbQBBwH3Ae8BvAEHAbwBBwLzAe8DBwLrAewWAAIHAe8HAAGtAf8BGQEJAhkB3QIJAd0CGQEJ
+        ARkB9AG0AQcB8gHwAQcBvAHvAfMCAAHzAe8BBwHvAQcB8AFtAgADCAEAA5cBAAPbCAAB9AIHAe8B9AYA
+        Ac8B/wIZAwkC8wMJAhkB9AG0AQcB8wHwArwB9wHzAgAB8wHvAwcB8QFtAgADCAEAA5cBAAPbBwAB9AG8
+        AQcB9wEHAe8B9AUAAbQB/wIZAQkBtQH0Av8B9AG1AQkCGQH0AbQB8AG8AQcB8QG8AQcB7wLzAe8CBwG8
+        ApIB9wIAAwgBAAOXAQAD2wYAAfQCvAEHAfcB7wG8AQcB9AQAAbQB/wEZAgkB9AH/AvQB/wH0AwkB9AG0
+        AgAB8gHwArwBBwGSAfcDBwHvAfAUAAH0AbwB8AIHAfcB7wEHArwB9AMAAbQB/wIJARkB/wT0Af8B9AG1
+        AdwB9AG0AQAB8gEHAfEB8ALxAvAB8QHwArwB7AHwAwAD4wEAA3UBAAN6BQAB8AHyAbwBBwHvAvcBBwG8
+        AfIB8AMAAbQB/wEJARkB9AMZA/QB/wH0AbUB8wG0AQAB8wHxAfMB8QIHAvAC7wG8AfIB7wHxAwAD4wEA
+        A3UBAAN6BAAB8QHwAQcC7wGSAu0B9wHvAQcC8AIAAQkN/wH0AbQCAAHyAbwB8AH/AbwC8QEHAf8C7wHw
+        BAAD4wEAA3UBAAN6BAAB8QHzAfIB8QHwAbwCBwG8AfAB8gH0AfACAAEJAbUNtAG1AwAD/wG8AvIB7wL/
+        AfQUAAHyAfADvAEHA+8BBwG8AfAB8hgAAfMC8AHzNgABQgFNAT4HAAE+AwABKAMAAUADAAEgAwABAQEA
+        AQEGAAEBFgAD/4EAAfwBPwL/AcABBwL/AeABBwL/AcABBwL/AcABAwL/AfwBfwL/AYABAQHEAUcB/AF/
+        AgABgAEBAcQBRwH8AX8CAAHAAQMBxAFHAfwBfwQAAv8B/AF/AgABAQGAAcQBRwH4AT8CAAEBAYABxAFH
+        AfABHwQAAcQBRwHgAQ8CAAHAAQMC/wHAAQcCAAGAAQEBxAFHAcABBwIAAYABAQHEAUcBgAEDAgABwAED
+        AcQBRwGAAQMCAAHgAQcC/wGAAQMC/wH8AT8G/xYACw==
+</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterUp.Parent" xml:space="preserve">
+    <value>groupBoxFilter</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 12</value>
+  </data>
+  <data name="checkBoxMailEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAdd.Name" xml:space="preserve">
+    <value>buttonMailAdd</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="radioButtonUTF16LE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxShowStatusBar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;colorDialog1.Name" xml:space="preserve">
+    <value>colorDialog1</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDown.Parent" xml:space="preserve">
+    <value>groupBoxFilter</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;maxLineLength.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonEucJP.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="checkBoxIsUrlLink.Text" xml:space="preserve">
+    <value>Enable URL Link</value>
+  </data>
+  <data name="dataGridViewPtn.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonOK.TabIndex" type="System.Int32, mscorlib">
+    <value>1003</value>
+  </data>
+  <data name="buttonFont.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonPtnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 18</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowStatusBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDown.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="checkBoxIsUrlLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxMailEnable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnAdd.Parent" xml:space="preserve">
+    <value>groupBoxPtn</value>
+  </data>
+  <data name="groupBoxFilter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="checkBoxFilterEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="&gt;&gt;fontDialog1.Name" xml:space="preserve">
+    <value>fontDialog1</value>
+  </data>
+  <data name="label5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="postScriptModeCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 16</value>
+  </data>
+  <data name="backColorPic.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 46</value>
+  </data>
+  <data name="buttonDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnUp.Name" xml:space="preserve">
+    <value>buttonPtnUp</value>
+  </data>
+  <data name="checkBoxShowStatusBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 16</value>
+  </data>
+  <data name="buttonFont.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Back Color</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;backColorPic.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="buttonPtnAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="buttonFilterDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 18</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 12</value>
+  </data>
+  <data name="buttonPtnDown.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;buttonDefault.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="tabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 184</value>
+  </data>
+  <data name="radioButtonAuto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fontColorPic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterEnable.Name" xml:space="preserve">
+    <value>checkBoxFilterEnable</value>
+  </data>
+  <data name="groupBoxFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 310</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsSaveHistory.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPtn.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Flter</value>
+  </data>
+  <data name="&gt;&gt;buttonFont.Name" xml:space="preserve">
+    <value>buttonFont</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDown.Parent" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterAdd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonFont.Text" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="label4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.ImageIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsUrlLink.Name" xml:space="preserve">
+    <value>checkBoxIsUrlLink</value>
+  </data>
+  <data name="radioButtonUTF16BE.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 12</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>286, 44</value>
+  </data>
+  <data name="buttonPtnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>104</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="buttonMailDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;radioButtonShiftJIS.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonUTF16LE.Text" xml:space="preserve">
+    <value>UTF-16LE</value>
+  </data>
+  <data name="radioButtonJIS.Text" xml:space="preserve">
+    <value>iso-2022-jp</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonFilterUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="radioButtonAuto.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMailAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>303</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDelete.Parent" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16LE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonMailAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="radioButtonEucJP.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dataGridViewMail.Parent" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="buttonPtnAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>103</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontInfo.Name" xml:space="preserve">
+    <value>textBoxFontInfo</value>
+  </data>
+  <data name="dataGridViewPtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="&gt;&gt;maxReadSize.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Font Color</value>
+  </data>
+  <data name="buttonPtnDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 18</value>
+  </data>
+  <data name="buttonInport.TabIndex" type="System.Int32, mscorlib">
+    <value>1001</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonInport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 27</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFilter.Name" xml:space="preserve">
+    <value>groupBoxFilter</value>
+  </data>
+  <data name="&gt;&gt;buttonFont.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonMailUp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonInport.Name" xml:space="preserve">
+    <value>buttonInport</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonInport.ToolTip" xml:space="preserve">
+    <value>Import Setting</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16BE.Name" xml:space="preserve">
+    <value>radioButtonUTF16BE</value>
+  </data>
+  <data name="postScriptModeCheck.Text" xml:space="preserve">
+    <value>Display only the difference</value>
+  </data>
+  <data name="radioButtonAuto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 16</value>
+  </data>
+  <data name="buttonFilterUp.TabIndex" type="System.Int32, mscorlib">
+    <value>201</value>
+  </data>
+  <data name="radioButtonAuto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 20</value>
+  </data>
+  <data name="checkBoxMailEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="buttonFilterDelete.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxIsUrlLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 273</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="checkBoxIsUrlLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 16</value>
+  </data>
+  <data name="checkBoxMailEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="fontColorPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsUrlLink.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;postScriptModeCheck.Name" xml:space="preserve">
+    <value>postScriptModeCheck</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxFilterEnable.Text" xml:space="preserve">
+    <value>Enable Filter</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 12</value>
+  </data>
+  <data name="radioButtonUTF16LE.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPtn.Parent" xml:space="preserve">
+    <value>groupBoxPtn</value>
+  </data>
+  <data name="&gt;&gt;groupBoxPtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="buttonMailAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsSaveHistory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16LE.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonShiftJIS.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMailEnable.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="buttonDefault.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxIsSaveHistory.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="radioButtonAuto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonUTF16BE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonMailDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="radioButtonEucJP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonMailDown.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="tabPage3.ImageIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;fontColorPic.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="radioButtonUTF16BE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonJIS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="checkBoxShowStatusBar.Text" xml:space="preserve">
+    <value>Show Status Bar</value>
+  </data>
+  <data name="dataGridViewMail.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonUTF8.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewMail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonEucJP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterAdd.Parent" xml:space="preserve">
+    <value>groupBoxFilter</value>
+  </data>
+  <data name="buttonFilterAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="buttonInport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 391</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDelete.Name" xml:space="preserve">
+    <value>buttonFilterDelete</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SettingDialog</value>
+  </data>
+  <data name="buttonFilterAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>203</value>
+  </data>
+  <data name="maxReadSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="&gt;&gt;buttonExport.Name" xml:space="preserve">
+    <value>buttonExport</value>
+  </data>
+  <data name="backColorPic.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.Name" xml:space="preserve">
+    <value>radioButtonAuto</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Style</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16LE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxIsUrlLink.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMail.Name" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPtnEnable.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="radioButtonJIS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 44</value>
+  </data>
+  <data name="&gt;&gt;buttonInport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16LE.Name" xml:space="preserve">
+    <value>radioButtonUTF16LE</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxFilterEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 90</value>
+  </data>
+  <data name="buttonMailUp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 18</value>
+  </data>
+  <data name="checkBoxPtnEnable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 16</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Character Encoding</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPtnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="checkBoxMailEnable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDown.Name" xml:space="preserve">
+    <value>buttonMailDown</value>
+  </data>
+  <data name="radioButtonAuto.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="buttonMailDown.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="checkBoxShowStatusBar.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="radioButtonEucJP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 66</value>
+  </data>
+  <data name="&gt;&gt;groupBoxFilter.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="checkBoxIsSaveHistory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButtonShiftJIS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonMailUp.Parent" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMail.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxPtnEnable.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonMailAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>261, 18</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Return to the default setting.</value>
+  </data>
+  <data name="checkBoxIsSaveHistory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 295</value>
+  </data>
+  <data name="buttonFilterAdd.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="groupBoxPtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="buttonMailAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;buttonDefault.Name" xml:space="preserve">
+    <value>buttonDefault</value>
+  </data>
+  <data name="postScriptModeCheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFilterDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;postScriptModeCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonInport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFilterDown.Name" xml:space="preserve">
+    <value>buttonFilterDown</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPtnUp.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDelete.Name" xml:space="preserve">
+    <value>buttonMailDelete</value>
+  </data>
+  <data name="buttonMailDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 18</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="buttonMailUp.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="buttonMailAccount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonMailDown.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAccount.Parent" xml:space="preserve">
+    <value>groupBoxMail</value>
+  </data>
+  <data name="dataGridViewFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 47</value>
+  </data>
+  <data name="checkBoxPtnEnable.Text" xml:space="preserve">
+    <value>Enable Color Coding</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Alert Mail</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Once Max Read Size </value>
+  </data>
+  <data name="checkBoxPtnEnable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 13</value>
+  </data>
+  <data name="&gt;&gt;maxReadSize.Name" xml:space="preserve">
+    <value>maxReadSize</value>
+  </data>
+  <data name="buttonMailAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 23</value>
+  </data>
+  <data name="&gt;&gt;radioButtonAuto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonMailAdd.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowStatusBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;radioButtonShiftJIS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF8.Name" xml:space="preserve">
+    <value>radioButtonUTF8</value>
+  </data>
+  <data name="buttonFilterAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="maxReadSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 42</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewPtn.Name" xml:space="preserve">
+    <value>dataGridViewPtn</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 23</value>
+  </data>
+  <data name="buttonCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 395</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBoxFontInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dataGridViewMail.Name" xml:space="preserve">
+    <value>dataGridViewMail</value>
+  </data>
+  <data name="checkBoxPtnEnable.TabIndex" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterEnable.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioButtonUTF8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonMailDelete.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonShiftJIS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 16</value>
+  </data>
+  <data name="buttonPtnDelete.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value> Color Coding</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontInfo.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;buttonMailAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonMailUp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;checkBoxMailEnable.Name" xml:space="preserve">
+    <value>checkBoxMailEnable</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="dataGridViewFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>205</value>
+  </data>
+  <data name="&gt;&gt;radioButtonEucJP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBoxMail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDelete.Parent" xml:space="preserve">
+    <value>groupBoxPtn</value>
+  </data>
+  <data name="buttonCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;dataGridViewPtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 18</value>
+  </data>
+  <data name="buttonDefault.Text" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="radioButtonUTF16BE.Text" xml:space="preserve">
+    <value>UTF-16BE</value>
+  </data>
+  <data name="radioButtonUTF16LE.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFilterAdd.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;radioButtonUTF8.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonPtnAdd.Name" xml:space="preserve">
+    <value>buttonPtnAdd</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16BE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;maxLineLength.Name" xml:space="preserve">
+    <value>maxLineLength</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonFilterUp.Name" xml:space="preserve">
+    <value>buttonFilterUp</value>
+  </data>
+  <data name="checkBoxIsSaveHistory.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.ImageIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnAdd.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>362, 427</value>
+  </data>
+  <data name="buttonExport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 391</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterEnable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxIsSaveHistory.Text" xml:space="preserve">
+    <value>Save History</value>
+  </data>
+  <data name="&gt;&gt;maxLineLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonPtnUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="buttonOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 395</value>
+  </data>
+  <data name="fontColorPic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="buttonMailUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="radioButtonUTF8.Text" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDown.Parent" xml:space="preserve">
+    <value>groupBoxPtn</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="groupBoxMail.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="radioButtonAuto.Text" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="buttonFilterUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="&gt;&gt;colorDialog2.Name" xml:space="preserve">
+    <value>colorDialog2</value>
+  </data>
+  <data name="textBoxFontInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 20</value>
+  </data>
+  <data name="groupBoxMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>319, 310</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterEnable.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="buttonMailUp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;buttonCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;maxReadSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 23</value>
+  </data>
+  <data name="&gt;&gt;textBoxFontInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonUTF8.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 15</value>
+  </data>
+  <data name="&gt;&gt;maxReadSize.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="dataGridViewFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 257</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsUrlLink.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="backColorPic.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxIsUrlLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonMailDown.TabIndex" type="System.Int32, mscorlib">
+    <value>302</value>
+  </data>
+  <data name="buttonFilterDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 18</value>
+  </data>
+  <data name="radioButtonJIS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFont.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonFilterUp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;buttonOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonFilterDelete.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 319</value>
+  </data>
+  <data name="&gt;&gt;radioButtonUTF16BE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonFont.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnUp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 350</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fontDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;buttonMailDelete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="backColorPic.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="maxLineLength.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="buttonFilterDown.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
+  </data>
+  <data name="&gt;&gt;fontColorPic.Name" xml:space="preserve">
+    <value>fontColorPic</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="dataGridViewPtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 257</value>
+  </data>
+  <data name="maxLineLength.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 19</value>
+  </data>
+  <data name="buttonMailUp.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonMailDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 18</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Alert Mail</value>
+  </data>
+  <data name="&gt;&gt;buttonPtnDelete.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonFilterDelete.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxShowStatusBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 273</value>
+  </data>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>472, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="colorDialog2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>254, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>78</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>375, 17</value>
+  </metadata>
+  <metadata name="fontDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 17</value>
+  </metadata>
+  <metadata name="colorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

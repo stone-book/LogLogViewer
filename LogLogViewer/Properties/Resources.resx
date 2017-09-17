@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorMessageBoxTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorMessageFileNotFound" xml:space="preserve">
+    <value>File not found.</value>
+  </data>
+  <data name="ErrorMessageFileReadError" xml:space="preserve">
+    <value>File is empty.</value>
+  </data>
+  <data name="reloadToolStripMenuItemPause" xml:space="preserve">
+    <value>Pause(&amp;P)</value>
+  </data>
+  <data name="reloadToolStripMenuItemResume" xml:space="preserve">
+    <value>Resume(&amp;R)</value>
+  </data>
+  <data name="InfoMessageFindNotFound" xml:space="preserve">
+    <value>The text you specified was not found.</value>
+  </data>
+  <data name="StatusMessageAutoEncoding" xml:space="preserve">
+    <value>(Auto)</value>
+  </data>
+  <data name="InfoMessageChangeEncoding" xml:space="preserve">
+    <value>Do you want to read again?</value>
+  </data>
+  <data name="QuestionMessageBoxTitle" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="gridViewColumnHeaderAlertMail" xml:space="preserve">
+    <value>Alert Mail</value>
+  </data>
+  <data name="gridViewColumnHeaderColor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="gridViewColumnHeaderComment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="gridViewColumnHeaderEnable" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="gridViewColumnHeaderMailEdit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="gridViewColumnHeaderNo" xml:space="preserve">
+    <value>No.</value>
+  </data>
+  <data name="gridViewColumnHeaderRegExp" xml:space="preserve">
+    <value>Regular Exp.</value>
+  </data>
+  <data name="MailDlgBlankError" xml:space="preserve">
+    <value>Please enter all of the items</value>
+  </data>
+  <data name="MailDlgSmtpError" xml:space="preserve">
+    <value>E-mail account has not yet been set.</value>
+  </data>
+  <data name="MailDlgTestMailError" xml:space="preserve">
+    <value>During transmission, an error has occurred.</value>
+  </data>
+  <data name="MailDlgTestMailSend" xml:space="preserve">
+    <value>Test email was sent.</value>
+  </data>
+  <data name="noticeAlertMailSent" xml:space="preserve">
+    <value>Alert Mail was transmitted.({0}) Mail Total: {1} </value>
+  </data>
+  <data name="noticeAlertMailStart" xml:space="preserve">
+    <value>Alert Mail is enable. Do you read this file?</value>
+  </data>
+  <data name="AboutBoxMessage" xml:space="preserve">
+    <value>LogLogViewer is a free soft. This software comes with no warranties.</value>
+  </data>
+  <data name="AboutBoxTitle" xml:space="preserve">
+    <value>Infomation of {0}</value>
+  </data>
+  <data name="AboutBoxVersion" xml:space="preserve">
+    <value>Version {0}</value>
+  </data>
+  <data name="noticeAlertMailTaskEnd" xml:space="preserve">
+    <value>Alert Mail Task End.</value>
+  </data>
+  <data name="noticeAlertMailTaskStart" xml:space="preserve">
+    <value>Alert Mail Task Start.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_090" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\arrow-090.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_270" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\arrow-270.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clipboard_paste" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\clipboard-paste.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="color_swatch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\color-swatch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="control" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\control.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="control_pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\control-pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\cross.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="disk_return_black" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\disk-return-black.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="document_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\document-copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit_family" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\edit-family.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_open_document_text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\folder-open-document-text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="funnel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\funnel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\gear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\icon32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="magnifier" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\magnifier.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\mail.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multi.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navigation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\navigation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="navigation_180" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\navigation-180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plus_circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\plus-circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scissors_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\FugueIcons\scissors-blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
